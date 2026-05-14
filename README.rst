@@ -15,7 +15,7 @@ when water flows out through the lower opening, the volume of air at the top inc
 decreases (it is lower than atmospheric pressure).
 
 
-.. figure:: ./figures/dessin.svg
+.. figure:: ./docs/dessin.svg
     :width: 600
 
     Schematic  principle of a Mariotte bottle
@@ -28,7 +28,7 @@ which then serves as a water reservoir. This mechanism ensures a constant water 
 an essential condition for reproducible infiltration measurements.   
 This mechanism guarantees a constant flow rate
 
-.. figure:: ./figures/Test_labo.jpg
+.. figure:: ./docs/Test_labo.jpg
     :width: 600
 
     Sample bottle
@@ -39,7 +39,7 @@ the difference between the pressure measured at the top (air) and that at the bo
 (water), it is possible to determine the remaining water level at any given moment, without manual intervention. 
 This device allows for continuous monitoring of the water level during infiltration tests.
 
-.. figure:: ./figures/Arduino+capteur_pression
+.. figure:: ./docs/Arduino+capteur_pression.jpg
     :width: 600
 
     Arduino and pressure transducer
