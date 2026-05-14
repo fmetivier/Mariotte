@@ -4,7 +4,7 @@
 """
 
 '''
-Communication with SENO343 differential pressure SENSOR.
+Communication with differential pressure SENSORS.
 The sensor must be connected to an arduino see doc : 
 '''
 
@@ -17,10 +17,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from lab import *
+#from lab import *
 
 
 def acquisition(PRESSURE_COM_PORT = '/dev/ttyACM1', baud_rate = 9600, timeout=10, timestep = 0.9):
+    
     
     pressure_board = serial.Serial( PRESSURE_COM_PORT , baudrate = baud_rate, timeout = timeout )   
     time.sleep(0.1)

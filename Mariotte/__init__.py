@@ -11,8 +11,10 @@ __version__ = "1.0"
 
 __all__ = [
     "Mariotte",
-    "lab"
-]
+    "lab",
+    "testMariotte",
+    "infiltro"
+    ]
 
 #############################
 #
@@ -29,8 +31,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from lab import *
-from testMariotte import *
+from Mariotte.lab import *
+from Mariotte.testMariotte import *
+from Mariotte.Infiltro import *
 
 if __name__ == '__main__':
     pass
