@@ -16,7 +16,7 @@ decreases (it is lower than atmospheric pressure).
 
 
 .. figure:: ./docs/dessin.svg
-    :width: 600
+    :width: 300
 
     Schematic  principle of a Mariotte bottle
 
@@ -29,7 +29,7 @@ an essential condition for reproducible infiltration measurements.
 This mechanism guarantees a constant flow rate
 
 .. figure:: ./docs/Test_labo.jpg
-    :width: 600
+    :width: 300
 
     Sample bottle
 
@@ -40,7 +40,7 @@ the difference between the pressure measured at the top (air) and that at the bo
 This device allows for continuous monitoring of the water level during infiltration tests.
 
 .. figure:: ./docs/Arduino+capteur_pression.jpg
-    :width: 600
+    :width: 300
 
     Arduino and pressure transducer
 
