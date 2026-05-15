@@ -29,13 +29,12 @@ which then serves as a water reservoir. This mechanism ensures a constant water 
 an essential condition for reproducible infiltration measurements.   
 This mechanism guarantees a constant flow rate
 
-.. class:: center
+.. figure:: ./docs/Test_labo.jpg
+    :align: center
+    :width: 300
 
-    .. figure:: ./docs/Test_labo.jpg
-        :width: 300
 
-
-        Sample bottle
+    Sample bottle
 
 The two pressure sensors are connected to a differential pressure sensor, 
 which is in turn connected to an Arduino Uno board. By calculating 
