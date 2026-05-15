@@ -63,7 +63,7 @@ Then import the library and launch the pressure acquisition
     mt.pressure_acquisition(port_com) 
 
 If you're on linux and the arduino that controls the Mariotte bottle is the only device connected 
-than, normally, the connection port is /dev/ttyACM0. To know which port handles the connection just type 
+then, normally, the connection port is /dev/ttyACM0. To know which port handles the connection just type 
 
 .. code:: bash
 
