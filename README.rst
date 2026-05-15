@@ -47,6 +47,15 @@ This device allows for continuous monitoring of the water level during infiltrat
 library
 -------
 
+import the path to the Mariotte directory or, alternatively, launch your script from the Mariotte directory. 
+
+.. code:: python
+
+    import sys
+    sys.path.append("your/path/to/Mariotte")
+
+Then import the library and launch the pressure acquisition 
+
 .. code:: python
 
     import Mariotte as mt 
