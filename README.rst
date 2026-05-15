@@ -15,9 +15,9 @@ when water flows out through the lower opening, the volume of air at the top inc
 decreases (it is lower than atmospheric pressure).
 
 
-.. image:: ./docs/dessin.svg
+.. figure:: ./docs/dessin.svg
     :width: 300
-    :align: left
+    :align: "center"
 
     Schematic  principle of a Mariotte bottle
 
