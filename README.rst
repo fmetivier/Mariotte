@@ -22,7 +22,7 @@ decreases (it is lower than atmospheric pressure).
 
 
 Because of the pressure balance within the bottle, 
-the flow rate of water exiting the vessel depends solely on the difference in height between 
+the flow rate of water exiting the bottle depends solely on the difference in height between 
 the outlet and the vent, and not on the remaining water level in the container, 
 which then serves as a water reservoir. This mechanism ensures a constant water supply,  
 an essential condition for reproducible infiltration measurements.   
@@ -46,6 +46,23 @@ This device allows for continuous monitoring of the water level during infiltrat
 
 library
 -------
+
+.. code:: python
+
+    import Mariotte as mt 
+    port_com = '/dev/ttyACM0'
+    mt.pressure_acquisition(port_com) 
+
+If you're on linux and the arduino that controls the Mariotte bottle is the only device connected 
+than, normally, the connection port is /dev/ttyACM0. To know which port handles the connection just type 
+
+.. code:: bash
+
+    le /dev/ttyA* 
+
+on a Windows PC you'll have to scroll through the device manager and find the port which often is in the COM1 to 7 range.
+
+
 
 
 
