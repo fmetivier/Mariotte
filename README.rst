@@ -17,6 +17,7 @@ decreases (it is lower than atmospheric pressure).
 
 .. figure:: ./docs/dessin.svg
     :width: 300
+    :align: center
 
     Schematic  principle of a Mariotte bottle
 
@@ -30,6 +31,7 @@ This mechanism guarantees a constant flow rate
 
 .. figure:: ./docs/Test_labo.jpg
     :width: 300
+    :align: center
 
     Sample bottle
 
@@ -41,6 +43,7 @@ This device allows for continuous monitoring of the water level during infiltrat
 
 .. figure:: ./docs/Arduino+capteur_pression.jpg
     :width: 300
+    :align: center
 
     Arduino and pressure transducer
 
@@ -63,13 +66,13 @@ Then import the library and launch the pressure acquisition
     mt.pressure_acquisition(port_com) 
 
 If you're on linux and the arduino that controls the Mariotte bottle is the only device connected 
-then, normally, the connection port is /dev/ttyACM0. To know which port handles the connection just type 
+then, normally, the connection port is /dev/ttyACM0. To know which port handles the connection just type in a terminal
 
 .. code:: bash
 
     le /dev/ttyA* 
 
-on a Windows PC you'll have to scroll through the device manager and find the port which often is in the COM1 to 7 range.
+On a Windows PC you'll have to scroll through the device manager and find the port which, often, is in the COM1 to 7 range.
 
 
 
