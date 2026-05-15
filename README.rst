@@ -17,7 +17,7 @@ decreases (it is lower than atmospheric pressure).
 
 .. figure:: ./docs/dessin.svg
     :width: 300
-    :align: "center"
+    :align: center
 
     Schematic  principle of a Mariotte bottle
 
